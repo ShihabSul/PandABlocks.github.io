@@ -22,6 +22,16 @@ The documentation is split into 2 sections:
 
         The Developer Guide contains documentation on how to develop and contribute changes back to PandABlocks.github.io.
 
+The Existing Documentation for the PandABlocks projects can be found:
+
+======================= =====================================================
+PandABlocks-FPGA        https://PandABlocks.github.io/PandABlocks-FPGA
+PandABlocks-rootfs      https://PandABlocks.github.io/PandABlocks-rootfs
+PandABlocks-server      https://PandABlocks.github.io/PandABlocks-server
+PandABlocks-webcontrol  https://PandABlocks.github.io/PandABlocks-webcontrol
+PandABlocks-client      https://PandABlocks.github.io/PandABlocks-client
+======================= =====================================================
+
 .. toctree::
     :hidden:
 
