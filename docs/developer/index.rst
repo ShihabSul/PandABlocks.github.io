@@ -34,6 +34,7 @@ side-bar.
             how-to/make-release
             how-to/pin-requirements
             how-to/test-container
+            how-to/run-container
 
         +++
 
