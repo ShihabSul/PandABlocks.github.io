@@ -182,6 +182,7 @@ html_context = dict(
     github_repo=project,
     github_version=version,
     doc_path="docs",
+    default_mode= "dark",
 )
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
