@@ -25,6 +25,7 @@ side-bar.
             :caption: How-to Guides
             :maxdepth: 1
 
+            how-to/remote.rst
 
         +++
 
@@ -49,6 +50,7 @@ side-bar.
             :maxdepth: 1
 
             reference/api
+            reference/release_compatibility
             ../genindex
 
         +++
