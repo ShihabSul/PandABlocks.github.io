@@ -29,19 +29,19 @@ Updating the rootfs
 Download a new ``boot-x.x.zip`` file from GitHub_ and unzip it somewhere. You
 can then::
 
-    $ md5sum imagefile.cpio.gz
-    $ scp imagefile.cpio.gz root@my_panda_ip:/boot
+    $ md5sum boot/imagefile.cpio.gz
+    $ scp boot/* root@my_panda_ip:/boot
     $ ssh root@my_panda_ip
     # sync
     # md5sum /boot/imagefile.cpio.gz
 
 
 If the two md5 sums match it has copied correctly. Within /boot you should find::
-    -boot.scr
-    -uImage
-    -boot.bin
-    -devicetree.dtb
-    -uinitramfs. 
+    - boot.scr
+    - uImage
+    - boot.bin
+    - devicetree.dtb
+    - uinitramfs
 
 .. note::
     For PandA v3.0 and beyond boot.bin and devicetree.dtb now come from the PandABlocks-FPGA build.
@@ -52,6 +52,12 @@ You can power cycle the box and it will install the new rootfs.
 
 Updating zpkg packages
 ----------------------
+
+A PandA firmware installation consists of 4 Zpkgs:
+    - panda-fpga@*.zpg
+    - panda-server@*.zpg
+    - panda-webcontrol@*.zpg
+    - panda-slowfpga@*.zpg (PandA 3.0 onwards)
 
 Download new zpkg files from the appropriate GitHub repositories (these are shown 
 at <PandA-URL>/admin/packages/list), then::
@@ -81,4 +87,14 @@ needed: panda-slowfpga@*.zpg.
     the rootfs fixes this, but you will still have to follow the steps above to
     correct the error.
 
+Update 24V eeprom
+-----------------
+
+PandA 3.0 requires an update to the EEPROM of 24Vio FMC cards to do this:
+
+
+    - Find the right ipmi_definition file according the the product and revision (the one for FMC24V is under its module folder)
+    - Copy it to panda
+    - Run /opt/bin/write_eeprom <path-to-ipmi-definition>
+    - After writing, the script will read the EEPROM to confirm the content matches
 
