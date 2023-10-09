@@ -13,8 +13,6 @@ side-bar.
             :caption: Tutorials
             :maxdepth: 1
 
-            tutorials/installation
-
         +++
 
         Tutorials for installation and typical usage. New users start here.
@@ -37,8 +35,6 @@ side-bar.
             :caption: Explanations
             :maxdepth: 1
 
-            explanations/docs-structure
-
         +++
 
         Explanations of how the library works and why it works that way.
@@ -49,7 +45,6 @@ side-bar.
             :caption: Reference
             :maxdepth: 1
 
-            reference/api
             reference/release_compatibility
             ../genindex
 
