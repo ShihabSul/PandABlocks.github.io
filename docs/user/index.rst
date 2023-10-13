@@ -45,6 +45,7 @@ side-bar.
             :caption: Reference
             :maxdepth: 1
 
+            reference/migration_guide
             reference/release_compatibility
             ../genindex
 
