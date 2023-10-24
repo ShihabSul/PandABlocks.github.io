@@ -29,7 +29,7 @@ Outenc         new field: encoding
 Pcap           changed field: sample -> gateDuration
 Seq            new fields: health, canWriteNext
 SFP DLS_Eventr new field: cpllLock
-SFP PAndA_Sync new fields: check_bits, in.cpll_lock, in.health, in.ctr_rst, in.ERR_cnt
+SFP PandA_Sync new fields: in.health, in.ERR_cnt
 |              removed fields: BIT9, BIT10, BIT11, BIT12, BIT13, BIT14, BIT15, BIT16
 System         new field: ext_clock_freq
 |              changed field: extClock -> clocksource

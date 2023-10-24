@@ -44,7 +44,8 @@ If the two md5 sums match it has copied correctly. Within /boot you should find:
     - uinitramfs
 
 .. note::
-    For PandA v3.0 and beyond boot.bin and devicetree.dtb now come from the PandABlocks-FPGA build.
+    For PandA v3.0 and beyond boot.bin and devicetree.dtb now come from the PandABlocks-FPGA build
+    but are combined in the ``boot-x.x.zip`` on the rootfs release page.
 
 You can power cycle the box and it will install the new rootfs.
 
