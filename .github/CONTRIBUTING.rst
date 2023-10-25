@@ -9,15 +9,6 @@ your time coding something that might not fit the scope of the project.
 
 .. _GitHub: https://github.com/PandABlocks/PandABlocks.github.io/issues
 
-Issue or Discussion?
---------------------
-
-Github also offers discussions_ as a place to ask questions and share ideas. If
-your issue is open ended and it is not obvious when it can be "closed", please
-raise it as a discussion instead.
-
-.. _discussions: https://github.com/PandABlocks/PandABlocks.github.io/discussions
-
 Code coverage
 -------------
 
