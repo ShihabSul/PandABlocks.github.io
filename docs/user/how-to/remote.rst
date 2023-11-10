@@ -49,7 +49,6 @@ If the two md5 sums match it has copied correctly. Within /boot you should find:
 
 You can power cycle the box and it will install the new rootfs.
 
-.. _GitHub: https://github.com/PandABlocks/PandABlocks-rootfs/releases
 
 Updating zpkg packages
 ----------------------
@@ -60,8 +59,7 @@ A PandA firmware installation consists of 4 Zpkgs:
     - panda-webcontrol@*.zpg
     - panda-slowfpga@*.zpg (PandA 3.0 onwards)
 
-Download new zpkg files from the appropriate GitHub repositories (these are shown 
-at <PandA-URL>/admin/packages/list), then::
+Download new zpkg files from GitHub_, then::
 
     $ scp *.zpg root@my_panda_ip:/tmp
     $ ssh root@my_panda_ip
@@ -87,6 +85,8 @@ needed: panda-slowfpga@*.zpg.
     and then retry the ``zpkg`` command and it should succeed. Release 1.1 of
     the rootfs fixes this, but you will still have to follow the steps above to
     correct the error.
+
+.. _GitHub: https://github.com/PandABlocks/PandABlocks.github.io/releases
 
 Update 24V eeprom
 -----------------
