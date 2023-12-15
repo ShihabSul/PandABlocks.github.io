@@ -4,13 +4,21 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import os
 import sys
 from pathlib import Path
 from subprocess import check_output
+from pkg_resources import require
+
 
 import requests
 
 import PandABlocks
+
+require("sphinx_rtd_theme")
+require("matplotlib")
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, ROOT)
 
 # -- General configuration ------------------------------------------------
 
@@ -44,6 +52,10 @@ extensions = [
     "sphinx_copybutton",
     # For the card element
     "sphinx_design",
+    # Timing plots
+    'matplotlib.sphinxext.plot_directive',
+    'common.python.sphinx_timing_directive',
+
 ]
 
 # If true, Sphinx will warn about all references where the target cannot

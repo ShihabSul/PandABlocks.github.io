@@ -13,6 +13,9 @@ side-bar.
             :caption: Tutorials
             :maxdepth: 1
 
+            tutorials/tutorial1_blinking_leds.rst
+            tutorials/tutorial2_position_capture.rst
+
         +++
 
         Tutorials for installation and typical usage. New users start here.
