@@ -15,6 +15,8 @@ side-bar.
 
             tutorials/tutorial1_blinking_leds.rst
             tutorials/tutorial2_position_capture.rst
+            tutorials/tutorial3_position_compare.rst
+            tutorials/tutorial4_snake_scan.rst
 
         +++
 
