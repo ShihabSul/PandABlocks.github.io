@@ -10,7 +10,7 @@ Starting the container
 
 To pull the container from github container registry ::
 
-    $ docker pull https://ghcr.io/pandablocks/pandablocks-dev-container:latest
+    $ docker pull ghcr.io/pandablocks/pandablocks-dev-container:latest
 
 To get a released version, use a numbered release instead of ``latest``.
 
