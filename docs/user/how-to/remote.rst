@@ -10,11 +10,11 @@ PandAs at once. The SSH interface can be used to do this.
 To gain access over SSH, either add an ``authorized_keys`` file to the SD card,
 or load it from USB via the Admin interface.
 
-It is then possible to log in remotely and perform operations on the PandA
+It is then possible to log in remotely and perform operations on the PandA.
 
 .. warning::
 
-    PandA only has a single user, root, and remote access is done as this user.
+    PandA only has a single user; root, and remote access is done as this user.
     Root has privileges to break the system, so be careful when running the
     commands below.
 
@@ -54,10 +54,10 @@ Updating zpkg packages
 ----------------------
 
 A PandA firmware installation consists of 4 Zpkgs:
-    - panda-fpga@*.zpg
-    - panda-server@*.zpg
-    - panda-webcontrol@*.zpg
-    - panda-slowfpga@*.zpg (PandA 3.0 onwards)
+    - \panda-fpga@*.zpg
+    - \panda-server@*.zpg
+    - \panda-webcontrol@*.zpg
+    - \panda-slowfpga@*.zpg (PandA 3.0 onwards)
 
 Download new zpkg files from GitHub_, then::
 
