@@ -54,10 +54,10 @@ Updating zpkg packages
 ----------------------
 
 A PandA firmware installation consists of 4 Zpkgs:
-    - \panda-fpga@*.zpg
-    - \panda-server@*.zpg
-    - \panda-webcontrol@*.zpg
-    - \panda-slowfpga@*.zpg (PandA 3.0 onwards)
+    - panda-fpga\@*.zpg
+    - panda-server\@*.zpg
+    - panda-webcontrol\@*.zpg
+    - panda-slowfpga\@*.zpg (PandA 3.0 onwards)
 
 Download new zpkg files from GitHub_, then::
 
