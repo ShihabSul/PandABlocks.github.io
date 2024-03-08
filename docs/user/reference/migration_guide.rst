@@ -3,7 +3,7 @@ Migration Guide
 
 The following is information key to migrating from one version of the PandA firmware to another.
 
-To change PandA firmware follow the steps outlined here :ref:`ssh_doc`.
+To change PandA firmware, follow the steps outlined here :ref:`ssh_doc`.
 
 2.0 to 3.0
 ==========
