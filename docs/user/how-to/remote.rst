@@ -66,8 +66,8 @@ Download new zpkg files from GitHub_, then::
     # zpkg install /tmp/*.zpg
 
 This will install the new versions of the appropriate packages, and restart the services
-on the box to use them. From the PandA 3.0 release and beyond a new zpkg file will be 
-needed: panda-slowfpga@*.zpg.
+on the box to use them. From the PandA 3.0 release and beyond, a new zpkg file will be 
+needed: panda-slowfpga\@*.zpg.
 
 .. note::
 
