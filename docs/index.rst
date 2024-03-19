@@ -33,7 +33,7 @@ PandABlocks-client      https://PandABlocks.github.io/PandABlocks-client
 ======================= =====================================================
 
 .. toctree::
-    :hidden:
+    :numbered:
 
     user/index
     developer/index
