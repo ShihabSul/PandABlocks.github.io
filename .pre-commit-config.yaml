@@ -15,9 +15,9 @@ repos:
         entry: black --check --diff
         types: [python]
 
-      - id: ruff
-        name: Run ruff
+      - id: flake8
+        name: Run flake8
         stages: [commit]
         language: system
-        entry: ruff
+        entry: flake8
         types: [python]

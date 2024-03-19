@@ -59,12 +59,12 @@ def get_versions(ref: str, add: Optional[str], remove: Optional[str]) -> List[st
 def write_json(path: Path, repository: str, versions: str):
     org, repo_name = repository.split("/")
     struct = [
-        {"version": version, "url": f"https://{org}.github.io/{repo_name}/{version}/"}
+        dict(version=version, url=f"https://{org}.github.io/{repo_name}/{version}/")
         for version in versions
     ]
     text = json.dumps(struct, indent=2)
     print(f"JSON switcher:\n{text}")
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text)
 
 
 def main(args=None):

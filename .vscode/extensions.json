@@ -4,7 +4,6 @@
         "ms-python.python",
         "tamasfe.even-better-toml",
         "redhat.vscode-yaml",
-        "ryanluker.vscode-coverage-gutters",
-        "charliermarsh.Ruff"
+        "ryanluker.vscode-coverage-gutters"
     ]
 }
